@@ -1,0 +1,63 @@
+# Hugo 사이트 기본 설정
+baseURL: https://hbl03.github.io/RBLN/
+languageCode: ko-kr
+title: Study of RBLN ATOM NPU on VIPLab
+theme: hextra
+
+# 한국어 설정
+defaultContentLanguage: ko
+defaultContentLanguageInSubdir: false
+
+# 빌드 설정
+enableMissingTranslationPlaceholders: false
+enableRobotsTXT: true
+enableGitInfo: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+# 메뉴 설정
+menu:
+  main:
+    - name: 문서
+      pageRef: /docs
+      weight: 1
+    - name: 소개
+      pageRef: /about
+      weight: 2
+    - name: GitHub
+      url: "https://github.com/hbl03/RBLN"
+      weight: 3
+      params:
+        icon: github
+
+# 마크다운 설정
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+# Hextra 테마 파라미터
+params:
+  description: RBLN ATOM NPU 연구 과제를 정리하는 문서 사이트
+  
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  footer:
+    displayCopyright: true
+    displayPoweredBy: false
+
+  editURL:
+    enable: false
+
+  search:
+    enable: true
+    type: flexsearch
+
+  # 다크모드 설정
+  theme:
+    default: system
+    displayToggle: true

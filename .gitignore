@@ -1,0 +1,22 @@
+# Hugo 빌드 결과물
+public/
+resources/
+.hugo_build.lock
+
+# 임시 파일
+*.bak
+*.tmp
+*~
+
+# OS 관련 파일
+.DS_Store
+Thumbs.db
+
+# IDE 관련 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (필요한 경우)
+node_modules/
