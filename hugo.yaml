@@ -21,12 +21,9 @@ menu:
     - name: 문서
       pageRef: /docs
       weight: 1
-    - name: 소개
-      pageRef: /about
-      weight: 2
     - name: GitHub
       url: "https://github.com/hbl03/RBLN"
-      weight: 3
+      weight: 2
       params:
         icon: github
 
