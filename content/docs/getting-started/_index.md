@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-draft: false
+weight: 10
 ---
 
 # 프로젝트 소개
@@ -26,3 +26,4 @@ draft: false
 ---
 
 *Last updated: 2025년 10월*
+

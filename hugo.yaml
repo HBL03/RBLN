@@ -1,7 +1,7 @@
 # Hugo 사이트 기본 설정
 baseURL: https://hbl03.github.io/RBLN/
 languageCode: ko-kr
-title: Study of RBLN ATOM NPU on VIPLab
+title: Study of NPU on VIPLab
 theme: hextra
 
 # 한국어 설정
@@ -13,6 +13,7 @@ enableMissingTranslationPlaceholders: false
 enableRobotsTXT: true
 enableGitInfo: false
 enableEmoji: true
+hasCJKLanguage: true
 pygmentsUseClasses: true
 
 # 메뉴 설정
@@ -45,7 +46,12 @@ params:
   
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: img/VIPLab.png
+      dark: img/VIPLab.png
+      width: 24
+      height: 24
 
   footer:
     displayCopyright: true
@@ -57,6 +63,9 @@ params:
   search:
     enable: true
     type: flexsearch
+    flexsearch:
+      index: content
+      tokenize: forward
 
   # 다크모드 설정
   theme:
